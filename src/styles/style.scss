@@ -4,7 +4,34 @@
 }
 
 h1 {
-	font-size: 300px;
+	font-size: 72px;
 	text-align: center;
-	color: fuchsia;
+	color: indianred;
+}
+
+textarea {
+	margin: 5px auto;
+	width: 80%;
+	display: block;
+}
+
+input {
+	margin: 5px auto;
+	width: 80%;
+	display:block;
+}
+
+button {
+	color: white;
+	text-align: left;
+	background: dodgerblue;
+	margin-left: 10%;
+}
+
+.tweet {
+	box-shadow: 2px 2px 2px 2px slategrey;
+	height: 50px;
+	width: 80%;
+	padding-top:5px;
+	margin: 5px auto;
 }
