@@ -29,7 +29,8 @@ button {
 }
 
 .tweet {
-	box-shadow: 2px 2px 2px 2px slategrey;
+	border: 1px solid rgba(20,20,20, .2);
+	border-radius: 5px;
 	height: 50px;
 	width: 80%;
 	padding-top:5px;

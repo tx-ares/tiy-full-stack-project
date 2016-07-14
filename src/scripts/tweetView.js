@@ -87,7 +87,7 @@ const Tweet = React.createClass({
 		return(
 			<div id={this.props.model.get('_id')}>
 				<div className="tweet">
-					{this.props.model.get('content')}
+					<p>{this.props.model.get('userHandle')} says: {this.props.model.get('content')}</p>
 				</div>
 			</div>
 			)

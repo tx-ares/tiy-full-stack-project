@@ -20,7 +20,7 @@ const app = function() {
 		},
 		//Our catch all/ default will redirect hash, which triggers a hash change... which triggers Router initialize, which then sends us home.
 		_redirect: function(){
-			location.hash = 'hash'
+			location.hash = 'home'
 		},
 		//Begins our hash listening.
 		initialize: function(){
